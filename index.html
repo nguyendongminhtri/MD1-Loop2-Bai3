@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = +prompt("Enter the number: ");
+    let number1=0, number2=1, temp, sum=0;
+
+    for (let i=0;i<number;i++){
+        document.write('-'+number1)
+        sum+=number1;
+        temp = number1+number2;
+        number1 = number2;
+        number2 = temp;
+    }
+    document.write('tong = '+sum)
+</script>
+
+</body>
+</html>
